@@ -1,0 +1,37 @@
+.addForm {
+  display: flex;
+  flex-direction: row;
+  gap: 5px;
+  margin: 15px 0;
+  padding: 15px 5px;
+  width: 100%;
+  border-radius: 5px;
+  background-color: #e7c159;
+
+
+  & input {
+    flex: 1;
+    height: 48px;
+    font-size: 16px;
+    padding: 4px;
+    border: none;
+    border-radius: 5px;
+    outline: none;
+  }
+
+  & button {
+    height: 48px;
+    font-size: 16px;
+    cursor: pointer;
+    color: steelblue;
+    border: none;
+    border-radius: 5px;
+    outline: none;
+    background-color: lightyellow;
+  }
+
+  & button:hover {
+    color: green;
+    background-color: lightgreen;
+  }
+}
